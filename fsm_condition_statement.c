@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef enum vending_service_event{
+typedef enum{
     IDLE,    
     INSERT_COINS,
     ENTER_PINS,
@@ -9,7 +9,7 @@ typedef enum vending_service_event{
     TAKE_DRINKS
 }VENDING_SERVICE_EVENT;
 
-typedef enum vending_service_state{
+typedef enum{
     IDLE_STATE,    
     INSERT_COINS_STATE,
     ENTER_PINS_STATE,
