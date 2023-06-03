@@ -9,5 +9,5 @@
 </p> 
 
 ## Difference of the two versions
-### fsm_condition_statement.c -> that just use switch statement to read current event or trigger each transitions.
-### fsm_struct_implement.c -> that use struct array to record all states, events, transition functions, so that we can use it to read current event or trigger each transitions.
+### fsm_condition_statement.c -> that just use switch statement to read current event or trigger each transition.
+### fsm_struct_implement.c -> that use struct array to record all states, events, transition functions, so that we can use it to read current event or trigger each transition.
